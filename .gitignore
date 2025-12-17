@@ -1,0 +1,26 @@
+# .gitignore
+# File is primarily preventing any temporary files from being included in the 
+# git history.
+
+# macOS system files
+.DS_Store
+
+# Microsoft Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.xlb
+*.pptx.autosave
+*.pptx.recover
+*.tmp
+
+# Markdown preview artifacts (if using tools like Typora or Obsidian)
+*.md.html
+*.md.pdf
+
+# VS Code workspace settings (optional)
+.vscode/
+
+# Backup files
+*.bak
+*.old
